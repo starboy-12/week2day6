@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kontak Event Pesantren</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="Logo Pesantren" class="logo" />
+      <h1>Kontak Event Pesantren</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a href="jadwal.html">Jadwal</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Hubungi Kami</h2>
+        <p>Silakan isi form berikut untuk mendaftar atau bertanya.</p>
+
+        <form action="#" method="post" class="form-box">
+          <div class="form-group">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="telp">Telepon:</label>
+            <input type="tel" id="telp" name="telp" />
+          </div>
+
+          <div class="form-group">
+            <label for="tanggal">Tanggal Kehadiran:</label>
+            <input type="date" id="tanggal" name="tanggal" />
+          </div>
+
+          <div class="form-group">
+            <p>Jenis Kelamin:</p>
+            <label
+              ><input type="radio" name="gender" value="Pria" /> Pria</label
+            >
+            <label
+              ><input type="radio" name="gender" value="Wanita" /> Wanita</label
+            >
+          </div>
+
+          <div class="form-group">
+            <label
+              ><input type="checkbox" id="setuju" name="setuju" /> Saya setuju
+              dengan syarat</label
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="paket">Pilih Paket:</label>
+            <select id="paket" name="paket">
+              <option value="reguler">Reguler</option>
+              <option value="vip">VIP</option>
+            </select>
+          </div>
+
+          <input type="submit" value="Kirim" class="btn-submit" />
+        </form>
+      </section>
+
+      <section>
+        <h2>Informasi Kontak</h2>
+        <table class="contact-table">
+          <tr>
+            <th>Jenis</th>
+            <th>Detail</th>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><a href="mailto:info@pesantren.com">info@pesantren.com</a></td>
+          </tr>
+          <tr>
+            <td>Telepon</td>
+            <td><a href="tel:+628123456789">+62 812-3456-789</a></td>
+          </tr>
+          <tr>
+            <td>Alamat</td>
+            <td>Jl. Pesantren No. 12, Yogyakarta</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2>Lokasi</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18..."
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Event Pesantren</p>
+    </footer>
+  </body>
+</html>
